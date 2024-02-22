@@ -3,7 +3,7 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "name": {
-            "value": "vm-sampledeploy"
+            "value": "vm-sample18"
         },
         "location": {
             "value": "eastus"
@@ -12,22 +12,28 @@
             "value": "admin-quickstart"
         },
         "adminPassword": {
-            "value": "GEN-PASSWORD"
+            "value": "5be09cd6-90c7-4985-b675-acd413511416"
         },
         "vCPUCount": {
             "value": 2
         },
-        "memoryGB": {
-            "value": 4
+        "memoryMB": {
+            "value": 4096
         },
         "imageName": {
-            "value": "GEN-UNIQUE" 
+            "value": "undefined-01"
         },
-        "hciVirtualNetworkName": {
-            "value": "GEN-UNIQUE"
+        "hciLogicalNetworkName": {
+            "value": "vnet-240-dhcp"
         },
         "customLocationName": {
-            "value": "GEN-UNIQUE"
+            "value": "customloc"
+        },
+        "domainTargetOu": {
+            "value": "ou=avdhci,dc=fcride,dc=com"
+        },
+        "domainJoinUserName": {
+            "value": "admin-aaron"
         }
     }
 }
